@@ -1,0 +1,7 @@
+*
+!.gitignore
+!data
+!data/*
+!Notebooks
+!Notebooks/*.ipynb
+!env.yml
