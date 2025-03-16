@@ -35,3 +35,22 @@ This repository contains a collection of notebooks that demonstrate various tech
 </a>
 
     How to access data downloaded and hosted in IRI library and other sources that support OPeNDAP.
+
+
+## Running locally
+
+If you feel more comfortable using your computer instead of the cloud, you can run the notebooks locally by using the provided `env.yml` file (or just installing the missing packages if you already have an environment).
+
+1. Download the conda-installer that suits your OS from [here](https://conda-forge.org/download/)
+2. Install mamba (faster than conda)
+3. Create a new environment using the `env.yml` file with the following command:
+
+    ```bash
+    mamba env create -f env.yml
+    ```
+4. Activate the environment:
+
+    ```bash
+    conda activate climate
+    ```
+5. Launch Jupyter Lab or use Visual Studio Code to open the notebooks.
