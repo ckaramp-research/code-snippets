@@ -2,6 +2,10 @@
 !.gitignore
 !data
 !data/*
-!Notebooks
-!Notebooks/*.ipynb
 !env.yml
+!CMIP6
+!CMIP6/*.ipynb
+!CESM2_LE
+!CESM2/*.ipynb
+!OBS_IRI
+!OBS_IRI/*.ipynb
