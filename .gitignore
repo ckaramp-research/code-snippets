@@ -9,4 +9,6 @@
 !CESM2_LE/*.ipynb
 !OBS_IRI
 !OBS_IRI/*.ipynb
+!demos
+!demos/*.ipynb
 !Readme.md
